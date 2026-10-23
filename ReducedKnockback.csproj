@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>ReducedKnockback</AssemblyName>
+    <RootNamespace>ReducedKnockback</RootNamespace>
+    <Version>1.0.0</Version>
+    <LangVersion>latest</LangVersion>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <ValheimManaged>$(VALHEIM_MANAGED)</ValheimManaged>
+    <ValheimManaged Condition="'$(ValheimManaged)' == ''">E:\SteamLibrary\steamapps\common\Valheim\valheim_Data\Managed</ValheimManaged>
+    <BepInExCore>$(BEPINEX_CORE)</BepInExCore>
+    <BepInExCore Condition="'$(BepInExCore)' == ''">C:\Users\jerem\AppData\Roaming\com.kesomannen.gale\valheim\profiles\ValPlusKevin\BepInEx\core</BepInExCore>
+    <DeployDir>$(BEPINEX_PLUGINS_DEPLOY)</DeployDir>
+    <DeployDir Condition="'$(DeployDir)' == ''">C:\Users\jerem\AppData\Roaming\com.kesomannen.gale\valheim\profiles\ValPlusKevin\BepInEx\plugins\ReducedKnockback</DeployDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="assembly_valheim">
+      <HintPath>$(ValheimManaged)\assembly_valheim.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(ValheimManaged)\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(ValheimManaged)\UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>$(BepInExCore)\BepInEx.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(BepInExCore)\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="Deploy" AfterTargets="Build">
+    <MakeDir Directories="$(DeployDir)" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(DeployDir)" />
+    <Message Text="Deployed to $(DeployDir)" Importance="High" />
+  </Target>
+
+</Project>

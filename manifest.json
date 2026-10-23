@@ -1,0 +1,7 @@
+{
+    "name": "ReducedKnockback",
+    "description": "Normalizes two-handed melee knockback (sledges, greatswords, battleaxes, atgeirs) to the one-handed Iron Mace so combos land, with a 1.2x boost on secondary attacks. Works with vanilla and modded weapons.",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "dependencies": []
+}
