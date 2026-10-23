@@ -418,13 +418,13 @@
     "C:\\Users\\jerem\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jerem\\Downloads\\V Mods\\ReducedKnockback\\ReducedKnockback.csproj",
+      "projectUniqueName": "C:\\Users\\jerem\\Downloads\\V Mods\\ReducedKnockback\\Valheim_ReducedKnockback\\ReducedKnockback.csproj",
       "projectName": "ReducedKnockback",
-      "projectPath": "C:\\Users\\jerem\\Downloads\\V Mods\\ReducedKnockback\\ReducedKnockback.csproj",
+      "projectPath": "C:\\Users\\jerem\\Downloads\\V Mods\\ReducedKnockback\\Valheim_ReducedKnockback\\ReducedKnockback.csproj",
       "packagesPath": "C:\\Users\\jerem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jerem\\Downloads\\V Mods\\ReducedKnockback\\obj\\",
+      "outputPath": "C:\\Users\\jerem\\Downloads\\V Mods\\ReducedKnockback\\Valheim_ReducedKnockback\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jerem\\AppData\\Roaming\\NuGet\\NuGet.Config"

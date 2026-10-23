@@ -7,3 +7,12 @@ C:\Users\jerem\Downloads\V Mods\ReducedKnockback\bin\Release\net472\ReducedKnock
 C:\Users\jerem\Downloads\V Mods\ReducedKnockback\bin\Release\net472\ReducedKnockback.pdb
 C:\Users\jerem\Downloads\V Mods\ReducedKnockback\obj\Release\net472\ReducedKnockback.dll
 C:\Users\jerem\Downloads\V Mods\ReducedKnockback\obj\Release\net472\ReducedKnockback.pdb
+C:\Users\jerem\Downloads\V Mods\ReducedKnockback\Valheim_ReducedKnockback\bin\Release\net472\ReducedKnockback.dll
+C:\Users\jerem\Downloads\V Mods\ReducedKnockback\Valheim_ReducedKnockback\bin\Release\net472\ReducedKnockback.pdb
+C:\Users\jerem\Downloads\V Mods\ReducedKnockback\Valheim_ReducedKnockback\obj\Release\net472\ReducedKnockback.csproj.AssemblyReference.cache
+C:\Users\jerem\Downloads\V Mods\ReducedKnockback\Valheim_ReducedKnockback\obj\Release\net472\ReducedKnockback.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\Downloads\V Mods\ReducedKnockback\Valheim_ReducedKnockback\obj\Release\net472\ReducedKnockback.AssemblyInfoInputs.cache
+C:\Users\jerem\Downloads\V Mods\ReducedKnockback\Valheim_ReducedKnockback\obj\Release\net472\ReducedKnockback.AssemblyInfo.cs
+C:\Users\jerem\Downloads\V Mods\ReducedKnockback\Valheim_ReducedKnockback\obj\Release\net472\ReducedKnockback.csproj.CoreCompileInputs.cache
+C:\Users\jerem\Downloads\V Mods\ReducedKnockback\Valheim_ReducedKnockback\obj\Release\net472\ReducedKnockback.dll
+C:\Users\jerem\Downloads\V Mods\ReducedKnockback\Valheim_ReducedKnockback\obj\Release\net472\ReducedKnockback.pdb
